@@ -8,8 +8,12 @@ body {
   font-family: 'Raleway', sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f1f2f6;
 }
 
+li a:hover {
+  color: #74b9ff !important;
+}
 .aqua-blue {
   color: #74b9ff;
 }
@@ -90,6 +94,20 @@ h1 {
   margin-bottom: 50px;
 }
 
+.text-center {
+  text-align: center !important;
+}
+
+.btn-primary {
+  background-color: #2d3436 !important;
+  border-color: #2d3436 !important;
+}
+
+.btn-primary:hover {
+  background-color: white !important;
+  border-color: white !important;
+  color: #74b9ff;
+}
 #pricing-text {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -116,11 +134,20 @@ h1 {
 }
 
 footer {
-  height: 300px;
+  height: auto;
   background: #2d3436;
 }
 
-.footer-section {
+.p-foot a {
   color: white;
+}
+
+.p-foot a:hover {
+  color: #74b9ff;
   text-decoration: none;
+}
+
+.push-down {
+  color: white;
+  margin-top: 25px;
 }
