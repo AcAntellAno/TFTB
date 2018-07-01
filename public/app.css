@@ -151,3 +151,18 @@ footer {
   color: white;
   margin-top: 25px;
 }
+
+.terms {
+  color: white;
+  text-align: center;
+  font-size: 10px;
+}
+
+.terms a {
+  color: white;
+}
+
+.terms a:hover {
+  color: #74b9ff;
+  text-decoration: none;
+}
