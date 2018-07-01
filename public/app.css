@@ -2,19 +2,33 @@ html {
   height: 100%;
 }
 
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 .navbar {
   margin-bottom: 0;
 }
 
-.image-banner {
-  width: 100%;
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://meundies.imgix.net//df2iqnjv15ch4.cloudfront.net/meundies/home_banners/desktop_banner_images/000/000/074/original/nonpurchaser-dk-3840x1800-_2x.jpg?1529014610?auto=format%2Ccompress);
+  background-size: cover;
+  height: 100vh;
 }
 
-.container {
-  width: 100%;
-  padding: 0;
+.title {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
 }
 
-.grid {
-  float: left;
+h1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 3rem;
+  white-space: nowrap;
 }
