@@ -3,7 +3,25 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+.aqua-blue {
+  color: #74b9ff;
+}
+
+.less-weight {
+  font-weight: 100;
+}
+
+.big-text {
+  font-size: 45px;
+  font-weight: 700;
+  color: #74b9ff;
+}
+.fancy-text {
+  font-family: 'Lobster Two', sans-serif;
+  font-style: italic;
 }
 
 .navbar {
@@ -14,21 +32,47 @@ header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(https://meundies.imgix.net//df2iqnjv15ch4.cloudfront.net/meundies/home_banners/desktop_banner_images/000/000/074/original/nonpurchaser-dk-3840x1800-_2x.jpg?1529014610?auto=format%2Ccompress);
   background-size: cover;
+  background-position: center;
   height: 100vh;
 }
 
 .title {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 25%;
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
+  font-size: 2.5em;
+}
+
+.top-icon {
+  margin-top: 60px;
+  text-align: center;
+  color: #74b9ff;
 }
 
 h1 {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin: 0;
   font-size: 3rem;
   white-space: nowrap;
+}
+
+.main-text {
+  text-align: center;
+}
+
+.main-text {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.jumbotron h2 {
+  text-align: center;
+}
+
+.icon-section {
+  padding-top: 50px;
+  text-align: center;
 }
