@@ -1,0 +1,168 @@
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f2f6;
+}
+
+li a:hover {
+  color: #74b9ff !important;
+}
+.aqua-blue {
+  color: #74b9ff;
+}
+
+.less-weight {
+  font-weight: 100;
+}
+
+.big-text {
+  font-size: 45px;
+  font-weight: 700;
+  color: #74b9ff;
+}
+.fancy-text {
+  font-family: 'Lobster Two', sans-serif;
+  font-style: italic;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://meundies.imgix.net//df2iqnjv15ch4.cloudfront.net/meundies/home_banners/desktop_banner_images/000/000/074/original/nonpurchaser-dk-3840x1800-_2x.jpg?1529014610?auto=format%2Ccompress);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.title {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.top-icon {
+  margin-top: 60px;
+  text-align: center;
+  color: #74b9ff;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3rem;
+  white-space: nowrap;
+}
+
+.main-text {
+  text-align: center;
+}
+
+.main-text {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.jumbotron h2 {
+  text-align: center;
+}
+
+.icon-section {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.cards {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-sm-6 {
+  margin-bottom: 50px;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.btn-primary {
+  background-color: #2d3436 !important;
+  border-color: #2d3436 !important;
+}
+
+.btn-primary:hover {
+  background-color: white !important;
+  border-color: white !important;
+  color: #74b9ff;
+}
+#pricing-text {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.thumb {
+  height: 252.5px !important;
+  width: 252.5px !important;
+}
+
+.merch-text {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.mid-bar {
+  height: 100px;
+  background: #74b9ff;
+}
+
+.mid-bar-text {
+  padding-top: 30px;
+  margin: 0;
+}
+
+footer {
+  height: auto;
+  background: #2d3436;
+}
+
+.p-foot a {
+  color: white;
+}
+
+.p-foot a:hover {
+  color: #74b9ff;
+  text-decoration: none;
+}
+
+.push-down {
+  color: white;
+  margin-top: 25px;
+}
+
+.terms {
+  color: white;
+  text-align: center;
+  font-size: 10px;
+}
+
+.terms a {
+  color: white;
+}
+
+.terms a:hover {
+  color: #74b9ff;
+  text-decoration: none;
+}
