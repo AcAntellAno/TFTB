@@ -10,7 +10,7 @@ var LocalStrategy = require('passport-local');
 var methodOverride = require('method-override');
 const _PORT = 8080;
 
-mongoose.connect('mongodb://localhost/tftb');
+//mongoose.connect('mongodb://localhost/tftb');
 app.use(express.static('public')); //serve contents in public directory
 app.set('view engine', 'ejs');
 
