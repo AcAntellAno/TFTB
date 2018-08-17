@@ -2,6 +2,12 @@ var express = require('express');
 var mongoose = require('mongoose');
 var app = express();
 var request = require('request');
+var bodyParser = require('body-parser');
+var mongoose = require('mongoose');
+var User = require('./models/User');
+var passport = require('passport');
+var LocalStrategy = require('passport-local');
+var methodOverride = require('method-override');
 const _PORT = 8080;
 
 mongoose.connect('mongodb://localhost/tftb');
